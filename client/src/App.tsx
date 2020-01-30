@@ -1,12 +1,12 @@
 import React from 'react';
 import { ApolloProvider } from 'react-apollo';
 import client from './graphql/client';
+import Users from './components/Users';
 
 const App: React.FC = () => {
   return (
     <ApolloProvider client={client}>
-    <div className="App">
-    </div>
+      <Users />
     </ApolloProvider>
   );
 }
