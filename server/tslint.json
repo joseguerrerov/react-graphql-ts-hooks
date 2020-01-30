@@ -1,0 +1,19 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "import-name": [ true,
+      { "mailgunJs": "Mailgun" },
+      { "jsonwebtoken": "jwt" },
+      { "handlebars": "Handlebars" },
+      { "mongooseUniqueValidator": "uniqueValidator" },
+      { "v5": "uuid" }
+    ],
+    "interface-name":true,
+    "no-unused-expression":true,
+    "no-duplicate-imports": true,
+    "no-duplicate-variable": true,
+    "no-require-imports":true,
+    "semicolon": true,
+    "align": false
+  }
+}
